@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* main */
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header {
+    flex: 0 1 auto;
+    background-color: #914F1E;
+    /* border: 1px solid black; */
+}
+/* view-ordr */
+.view-order {
+    background-color: white;
+}
+.list-group a.active {
+    background-color: #914F1E;
+    color: white;
+}
+
+section {
+    flex: 1 1 auto;
+    /* border: 1px solid black; */
+    overflow: auto;
+}
+.category {
+    height: 100%;
+}
+.menu {
+    height: 100%;
+    overflow-y: auto;
+}
+.card {
+    font-size: 18pt;
+}
+
+img {
+    object-fit: cover;
+}
+a {
+    font-size: 18pt;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        font-size: 10pt;
+        height: 90%;
+    }
+    .order-btn {
+        font-size: 10pt;
+    }
+    a {
+        font-size: 10pt;
+    }
+}
+
+.btns {
+    all: unset;
+    background-color: rgb(255, 73, 73);
+    color: white;
+    padding: 1px;
+    border-radius: 5px;
+}
+
