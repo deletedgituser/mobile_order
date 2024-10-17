@@ -122,7 +122,7 @@ document.querySelectorAll(".order-btn").forEach((button) => {
       // Create delete button
       let deleteButton = document.createElement("button");
       deleteButton.className = "btns";
-      deleteButton.textContent = "Remove";
+      deleteButton.innerHTML = "Remove";
       deleteButton.addEventListener("click", function () {
         total.textContent = (
           parseFloat(total.textContent) - parseFloat(price.textContent)
