@@ -62,9 +62,10 @@ a {
 
 .btns {
     all: unset;
-    background-color: rgb(255, 73, 73);
-    color: white;
+    background-color: rgb(197, 197, 197);
+    color: rgb(0, 0, 0);
     padding: 1px;
     border-radius: 5px;
+    padding: 2px 5px;
 }
 
